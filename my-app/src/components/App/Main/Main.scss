@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+.Main {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 100px;
+  @media (max-width: 881px) {
+    flex-direction: column;
+  }
+  .mainDiv {
+    @media (max-width: 881px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    h1 {
+      font-family: "Russo One", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 100px;
+      line-height: 130%;
+      /* identical to box height, or 130px */
+
+      text-transform: uppercase;
+      @media (max-width: 1174px) {
+        font-size: 70px;
+        text-align: left;
+        position: relative;
+        left: -8px;
+      }
+      @media (max-width: 881px) {
+        font-size: 90px;
+      }
+      @media (max-width: 530px) {
+        // left: -30px;
+        top: -20px;
+        // width: 320px;
+        // height: 82px;
+        font-size: 60px;
+      }
+      @media (max-width: 376px) {
+        font-size: 56px;
+        left: -2px;
+      }
+      @media (max-width:350px) {
+        font-size: 50px;
+      }
+    }
+    p {
+      font-family: "Montserrat", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 23px;
+      max-width: 417px;
+      line-height: 150%;
+      @media (max-width: 1174px) {
+        font-size: 22px;
+        text-align: left;
+        font-weight: normal;
+      }
+      @media (max-width: 881px) {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        position: relative;
+        left: -50px;
+        top: -60px;
+      }
+      @media (max-width: 530px) {
+        left: 30px;
+        top: -60px;
+        // width: 320px;
+        // height: 82px;
+        font-size: 18px;
+      }
+      @media (max-width: 376px) {
+        font-size: 16px;
+      }
+    }
+    .mainButton {
+      /* green */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 290px;
+      cursor: pointer;
+      height: 72px;
+      background: #51b554;
+      border-radius: 10px;
+      font-family: "Montserrat", sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 27px;
+      text-align: center;
+      color: #ffffff;
+      @media (max-width: 1174px) {
+        position: relative;
+        left: -2px;
+        top: 20px;
+      }
+      @media (max-width: 881px) {
+        left: -100px;
+        top: -40px;
+        width: 320px;
+        height: 82px;
+      }
+      @media (max-width: 530px) {
+        left: 7px;
+        top: -40px;
+        width: 370px;
+        height: 82px;
+      }
+      @media (max-width: 375px) {
+        left: 7px;
+        top: -40px;
+        width: 80%;
+        height: 82px;
+      }
+    }
+  }
+  img {
+    @media (max-width: 1174px) {
+      width: 440px;
+      height: 460px;
+    }
+  }
+}
+
+.imgMobile {
+  @media (min-width: 881px) {
+    display: none !important;
+  }
+  @media (max-width: 475px) {
+    width: 300px !important;
+    height: 320px !important;
+  }
+}
+
+.desctopImg {
+  @media (max-width: 881px) {
+    display: none !important;
+  }
+}
+
+#p1 {
+  @media (max-width: 1174px) {
+    display: none;
+  }
+}

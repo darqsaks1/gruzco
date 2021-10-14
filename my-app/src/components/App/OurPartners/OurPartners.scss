@@ -1,0 +1,44 @@
+.OurPartners {
+  .OurPartnersContainer {
+    display: flex;
+    flex-direction: column;
+    h3 {
+      font-family: Russo One;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 38px;
+      line-height: 130%;
+      /* or 49px */
+
+      text-transform: uppercase;
+
+      /* dark */
+
+      color: #2e302e;
+    }
+    .OurPartnersList {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      div {
+        width: 140px;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+        border-radius: 20px;
+        opacity: 0.9;
+        &:hover {
+          opacity: 1;
+        }
+        img {
+          width: 90%;
+          height: auto;
+        }
+      }
+    }
+  }
+}

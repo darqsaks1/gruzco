@@ -1,0 +1,116 @@
+.Footer {
+  display: flex;
+  justify-content: center;
+  .FooterContainer {
+    display: flex;
+    width: 90%;
+
+    flex-direction: row;
+    @media (max-width: 1155px) {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+    .FooterLinks {
+      margin-top: 70px;
+      display: flex;
+      flex-direction: column;
+      h1 {
+        font-family: Russo One;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 38px;
+        line-height: 130%;
+        width: 100%;
+        text-align: left;
+        text-transform: uppercase;
+        color: #2e302e;
+      }
+      h2 {
+        font-family: Russo One;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 130%;
+        width: 100%;
+        text-align: left;
+        text-transform: uppercase;
+        color: #2e302e;
+      }
+      p {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 150%;
+        text-align: left;
+        color: #2e302e;
+        opacity: 0.7;
+      }
+      .Links {
+        display: flex;
+        flex-direction: column;
+        justify-self: left;
+        text-align: left;
+        align-items: flex-start;
+        div {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          @media (max-width: 617px) {
+            flex-direction: column;
+            width: 100%;
+          }
+          a {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 23px;
+            line-height: 145%;
+            margin: 20px;
+            margin-left: 0 !important;
+            color: #2e302e;
+            cursor: pointer;
+            &:hover {
+              color: #51b554;
+            }
+          }
+        }
+      }
+    }
+    img {
+      @media (max-width: 1155px) {
+      }
+    }
+  }
+}
+
+.tg {
+  color: #0088cc !important;
+}
+.whatsapp {
+  color: #25d366 !important;
+}
+.viber {
+  color: #59267c !important;
+}
+
+.fotIMG1 {
+  @media (max-width: 617px) {
+    display: none;
+  }
+}
+.fotIMG2 {
+  margin-top: 100px;
+  @media (min-width: 617px) {
+    display: none;
+  }
+  @media (max-width: 485px) {
+    width: 312px;
+    height: 336px;
+  }
+}
+
+a {
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+  
+}

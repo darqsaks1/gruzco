@@ -1,0 +1,52 @@
+.image-gallery-left-nav .image-gallery-svg,
+.image-gallery-right-nav .image-gallery-svg {
+  height: 42px;
+  background: green !important;
+  width: 42px;
+  border-radius: 50px;
+}
+
+.image-gallery-svg {
+  height: 42px;
+  background: green !important;
+  width: 42px;
+  border-radius: 50px;
+}
+
+.PortfolioContainer1 {
+  display: flex;
+  flex-direction: column;
+  @media (min-width: 615px) {
+    display: none !important;
+  }
+  h2 {
+    align-items: flex-start;
+    justify-self: flex-start;
+    font-family: Russo One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 130%;
+    /* or 49px */
+    text-align: left;
+    text-transform: uppercase;
+    position: relative;
+    left: 20px; /* dark */
+
+    color: #2e302e;
+    @media (max-width: 1300px) {
+      left: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    @media (max-width: 425px) {
+      font-size: 28px;
+    }
+  }
+}
+ 
+.image-gallery-content .image-gallery-slide .image-gallery-image {
+  max-height: calc(70vh - 80px);
+  border-radius: 20px;
+}

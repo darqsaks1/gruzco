@@ -1,0 +1,102 @@
+.Services {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+  @media (max-width: 874px) {
+    margin-top: 30px;
+  }
+  .ServicesBg {
+    width: 90%; /* gray_bg */
+    padding: 20px;
+    background: #f1f1f1;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    @media (max-width: 1300px) {
+      flex-direction: column;
+    }
+    .ourServcies {
+      font-family: "Montserrat", sans-serif;
+      /* H2 */
+      padding: 10px;
+      font-family: Russo One;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      /* or 49px */
+
+      text-transform: uppercase;
+
+      /* dark */
+      h1 {
+        @media (max-width: 392px) {
+          font-size: 25px;
+        }
+      }
+    }
+    .servicesList {
+      display: flex;
+      flex-direction: column;
+      @media (max-width: 1300px) {
+        justify-content: center;
+        align-items: center;
+      }
+      .servicesBlock {
+        display: flex;
+        flex-direction: row;
+        @media (max-width: 530px) {
+          flex-direction: column;
+          align-items: center;
+        }
+        .servicesContainer {
+          max-width: 399px;
+          min-height: 217px;
+          @media (max-width: 874px) {
+            width: 50%;
+          }
+          @media (max-width: 530px) {
+            width: 100%;
+          }
+          h3 {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 23px;
+            line-height: 145%;
+            /* identical to box height, or 33px */
+
+            /* dark */
+
+            color: #2e302e;
+            @media (max-width: 676px) {
+              font-size: 18px;
+            }
+          }
+
+          ul {
+            li {
+              font-family: Montserrat;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 17px;
+              line-height: 150%;
+              /* or 25px */
+              /* dark */
+
+              color: #2e302e;
+              text-align: left !important;
+
+              opacity: 0.7;
+              @media (max-width: 676px) {
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

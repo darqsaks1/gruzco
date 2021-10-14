@@ -1,0 +1,153 @@
+.Cars {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 185px;
+
+  justify-content: center;
+  @media (max-width: 676px) {
+    margin-bottom: 30px;
+  }
+  h3 {
+    font-family: Russo One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 130%;
+    /* or 49px */
+
+    text-transform: uppercase;
+
+    /* dark */
+
+    color: #2e302e;
+    @media (max-width: 384px) {
+      font-size: 30px;
+    }
+  }
+  .carsContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+    @media (max-width: 1300px) {
+      flex-direction: column;
+      align-items: center;
+    }
+    .big-block {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      @media (max-width: 1300px) {
+        flex-direction: column;
+        // align-items: center;  align-items: center;
+        justify-content: space-around;
+        width: 100%;
+      }
+      .block {
+        display: flex;
+        flex-direction: row;
+        // width: 100%;
+        // align-items: center;
+        // width: 320px;
+        // justify-content: center;
+
+        @media (max-width: 700px) {
+          flex-direction: column;
+          // align-items: center;
+        }
+        .carBlock {
+          padding: 15px;
+          width: 320px;
+          h3 {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 23px;
+            line-height: 145%;
+            /* identical to box height, or 33px */
+            text-align: left;
+            /* dark */
+
+            color: #2e302e;
+            @media (max-width: 1300px) {
+              font-size: 18px;
+            }
+          }
+          p {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 17px;
+            line-height: 150%;
+            /* identical to box height, or 25px */
+            text-align: left;
+
+            /* dark */
+
+            color: #2e302e;
+
+            opacity: 0.7;
+            @media (max-width: 1300px) {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.carImg {
+  width: 290px;
+  height: 232px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f1f1f1;
+  border-radius: 20px;
+  overflow: hidden;
+  img {
+    width: 230px;
+    height: 162px;
+    opacity: 0.7;
+    &:hover {
+      opacity: 1;
+      // padding: 10px;
+    }
+  }
+}
+
+.img1CAR {
+  width: 300px !important;
+  height: 162px;
+}
+
+.img2CAR {
+  width: 300px !important;
+  height: 202px !important;
+}
+
+// .tractor {
+//   @media (max-width: 1300px) {
+//     position: relative;
+//     left: -25px;
+//   }
+//   @media (max-width: 700px) {
+//     left: 0;
+//   }
+// }
+
+.car2 {
+  width: 250px !important;
+}
+
+.car3 {
+  width: 250px !important;
+}
+
+.car7 {
+  width: 250px !important;
+}

@@ -1,0 +1,101 @@
+.Popup {
+  display: flex;
+  justify-content: center;
+  .PopupContainer {
+    display: flex;
+    width: 90%;
+
+    flex-direction: row;
+
+    .PopupLinks {
+      margin-top: 70px;
+      display: flex;
+      flex-direction: column;
+      h1 {
+        font-family: Russo One;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 38px;
+        line-height: 130%;
+        width: 100%;
+        text-align: left;
+        text-transform: uppercase;
+        color: #2e302e;
+        @media (max-width: 488px) {
+          font-size: 25px;
+          text-align: center;
+        }
+      }
+      .textPopup {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 150%;
+        text-align: left;
+        color: #2e302e;
+        opacity: 0.7;
+        @media (max-width: 488px) {
+          text-align: center;
+        }
+      }
+      .Links {
+        display: flex;
+        flex-direction: column;
+        justify-self: left;
+        text-align: left;
+        align-items: flex-start;
+        @media (max-width: 488px) {
+          align-items: center;
+        }
+        div {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+
+          @media (max-width: 615px) {
+            flex-direction: column;
+          }
+          span {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 23px;
+            line-height: 145%;
+            margin: 20px;
+            margin-left: 0 !important;
+            color: #2e302e;
+            cursor: pointer;
+            &:hover {
+              color: #51b554;
+            }
+            @media (max-width: 488px) {
+              font-size: 18px;
+
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.tg {
+  color: #0088cc !important;
+}
+.whatsapp {
+  color: #25d366 !important;
+}
+.viber {
+  color: #59267c !important;
+}
+
+.popup-content {
+  width: 600px !important;
+  height: 600px !important;
+  @media (max-width: 615px) {
+    width: 85% !important;
+    height: auto !important;
+  }
+}
