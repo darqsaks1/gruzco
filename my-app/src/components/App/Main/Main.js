@@ -9,10 +9,10 @@ const Main = () => {
       <div className="mainDiv">
         <h1>gruzco.by</h1>
 
-        <p id="p1">Оставьте заявку и мы перезвоним вам втечение 30 минут</p>
-        <p>Грузчики от 8 р/час Наличный и безналичный расчет!</p>
+        <p id="p1">Оставьте заявку и мы перезвоним Вам втечение 30 минут</p>
+        <p>Грузчики от 8 р/час. Наличный и безналичный расчет!</p>
         <Popup
-          trigger={<div className="mainButton">Оформить заявку</div>}
+          trigger={<div className="mainButton">Заказать звонок</div>}
           position="center center"
           modal
         >

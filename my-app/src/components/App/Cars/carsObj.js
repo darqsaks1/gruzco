@@ -9,7 +9,7 @@ import img8 from "../../../assets/car/img8.png";
 
 export const car1 = {
   name: "Микроавтобусы",
-  price: "Цена: от 20 BYN/ч",
+  price: "Цена: от 20 BYN/ч.",
   first_text: "Вместимость: до 12 м³",
   second_text: "Грузоподьемность: до 1.5 тонн",
   img: img5,
@@ -24,7 +24,7 @@ export const car2 = {
 
 export const car3 = {
   name: "Манипуляторы",
-  price: "Цена: от 65 BYN/ч",
+  price: "Цена: от 65 BYN/ч.",
   first_text: "Размеры: до 9 м.",
   second_text: "Грузоподьемность: до 1.5 тонн",
   img: img7,
@@ -50,7 +50,7 @@ export const car5 = {
   
 export const car6 = {
     name: "МАЗ",
-    price: "Цена: от 30 BYN/час",
+    price: "Цена: от 30 BYN/ч.",
     first_text: "Тип кузова: открытый/закрытый",
     second_text: "Грузоподъёмность: от 5 до 30 тонн",
     img: img2,

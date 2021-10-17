@@ -35,7 +35,7 @@ const MobileSwiper = () => {
       <h2>Наше портфолио </h2>
 
       <ImageGallery
-        fullscreen={false}
+        fullscreen={true}
         showFullscreenButton={false}
         items={images}
         showPlayButton={false}

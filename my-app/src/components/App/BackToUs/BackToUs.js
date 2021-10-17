@@ -23,13 +23,13 @@ const BackToUs = () => {
                 {" "}
                 <div>
                   <p className="title1">Решение задач</p>
-                  <p className="text1">Сила грузко в ваших руках!</p>{" "}
+                  <p className="text1">Сила gruzco в ваших руках!</p>{" "}
                 </div>
               </div>
               {/* <img src={ad1} alt="ad1" />
               <img src={ad2} alt="ad2" /> */}
             </div>
-            <div className="imageList">
+            <div className="imageList imagelist2">
               {" "}
               <div className="back img3Back">
                 {" "}

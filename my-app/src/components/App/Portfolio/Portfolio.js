@@ -87,9 +87,7 @@ const Portfolio = () => {
           </div>
         </div>
       </ScrollableAnchor>
-      <div id={"Portfolio"}>
-        <MobileSwiper />
-      </div>
+      <MobileSwiper />
     </div>
   );
 };
