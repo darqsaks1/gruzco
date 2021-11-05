@@ -18,7 +18,7 @@ const PopupContent = () => {
           </span>
           <div class="Links">
             <div>
-              <span className="viber"><a href="viber://chat?number=%2B375339904077">Viber</a>Viber</span>
+              <span className="viber"><a href="viber://chat?number=%2B375339904077">Viber</a></span>
               <span className="tg"><a href='https://t.me/gruzco'>Telegram</a></span>
               <span className="whatsapp"><a href='https://wa.me/375339904077'>Whatsapp</a></span>
             </div>

@@ -14,6 +14,9 @@
       margin-top: 70px;
       display: flex;
       flex-direction: column;
+      @media (max-width: 488px) {
+        margin-top: 0px;
+      }
       h1 {
         font-family: Russo One;
         font-style: normal;
@@ -84,13 +87,13 @@
   }
 }
 
-.tg {
+.tg a {
   color: #0088cc !important;
 }
-.whatsapp {
+.whatsapp a {
   color: #25d366 !important;
 }
-.viber {
+.viber a {
   color: #59267c !important;
 }
 
@@ -228,4 +231,7 @@
   @media (max-width: 374px) {
     width: 240px;
   }
+}
+
+.tg {
 }

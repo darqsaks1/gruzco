@@ -16,7 +16,9 @@ const Footer = () => {
             <div class="FooterLinks">
               <h1>КОнтакты</h1>
               <h2>
-                <a  className='tel-href' href="tel: +375 (29) 990-40-77">+375 (29) 990-40-77</a>
+                <a className="tel-href" href="tel: +375 (33) 990-40-77">
+                  +375 (33) 990-40-77
+                </a>
               </h2>
               <p>
                 Оставьте заявку и мы перезвоним Вам в течение 30 минут. Если у
@@ -25,17 +27,24 @@ const Footer = () => {
               <div class="Links">
                 <div>
                   {" "}
-                  <a>Instagram</a>
+                  <a href='https://www.instagram.com/gruzco.by/'>Instagram</a>
                   {/* <a>+375 (29) 333–15–83</a> */}
-                  <a href="  " className="tg">
+                  <a href="https://t.me/gruzco" className="tg">
                     Telegram
                   </a>
-                  <a className="whatsapp">Whatsapp</a>
+                  <a className="whatsapp" href="https://wa.me/375339904077">
+                    Whatsapp
+                  </a>
                 </div>
                 <div>
                   {" "}
-                  <a className="viber">Viber</a>
-                  <a>gruzco@mail.ru</a>
+                  <a
+                    href="viber://chat?number=%2B375339904077"
+                    className="viber"
+                  >
+                    Viber
+                  </a>
+                  <a>info@gruzco.by</a>
                 </div>
               </div>
             </div>

@@ -13,7 +13,7 @@ const Header = () => {
           <a href="#Footer1">Контакты</a>
         </div>
         <div className="telContainer">
-          <a href="tel:+375 (29) 114–72–771">+375 (29) 114–72–77</a>
+          <a href="tel: +375 (33) 990-40-77"> +375 (29) 990-40-77</a>
         </div>
       </div>
     </div>
