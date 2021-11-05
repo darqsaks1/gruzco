@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import "./App.css";
 import { ThemeProvider } from "styled-components";
-
+import telegram from "../main";
 import Header from "../components/App/Header/Header";
 import Main from "../components/App/Main/Main";
 import Services from "../components/App/Services/Services";
@@ -18,10 +18,9 @@ import { theme } from "./theme";
 const App = () => {
   const menuId = "main-menu";
   const [open, setOpen] = useState(false);
-
+  telegram();
   return (
     <BrowserRouter>
-      {" "}
       <ThemeProvider theme={theme}>
         <div className="App" id="App">
           <Burger open={open} setOpen={setOpen} aria-controls={menuId} />

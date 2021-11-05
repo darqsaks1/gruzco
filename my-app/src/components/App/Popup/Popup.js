@@ -12,21 +12,28 @@ const PopupContent = () => {
       <div className="PopupContainer">
         <div class="PopupLinks">
           <h1>КОнтакты</h1>
-          <span class='textPopup'>
-            Оставьте заявку и мы перезвоним Вам втечение 30 минут. Если у вас
-            есть вопросы или нужна консультация, свяжитесь с нами!
+          <span class="textPopup">
+            Если у вас есть вопросы или нужна консультация, свяжитесь с нами!
+            Оставьте заявку и мы перезвоним Вам втечение 30 минут
           </span>
           <div class="Links">
             <div>
-              <span>+375 (29) 333–15–83</span>
-              <span className="tg">Telegram</span>
-              <span className="whatsapp">Whatsapp</span>
+              <span className="viber"><a href="viber://chat?number=%2B375339904077">Viber</a>Viber</span>
+              <span className="tg"><a href='https://t.me/gruzco'>Telegram</a></span>
+              <span className="whatsapp"><a href='https://wa.me/375339904077'>Whatsapp</a></span>
             </div>
             <div>
-              {" "}
-              <span>+375 (29) 114–72–77</span>
-              <span className="viber">Viber</span>
+              <span>
+                <a className="tel-href" href="tel: +375 (33) 990-40-77">
+                  +375 (29) 990-40-77
+                </a>
+              </span>
               <span>info@gruzco.by</span>
+            </div>
+            <div className="mainButton123">
+              <a class="href-popup" href="http://form.gruzco.by/">
+                Оставить заявку
+              </a>{" "}
             </div>
           </div>
         </div>

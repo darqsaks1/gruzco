@@ -16,7 +16,7 @@ const Footer = () => {
             <div class="FooterLinks">
               <h1>КОнтакты</h1>
               <h2>
-                <a>+375 (29) 333–15–83</a>
+                <a  className='tel-href' href="tel: +375 (29) 990-40-77">+375 (29) 990-40-77</a>
               </h2>
               <p>
                 Оставьте заявку и мы перезвоним Вам в течение 30 минут. Если у
@@ -35,7 +35,7 @@ const Footer = () => {
                 <div>
                   {" "}
                   <a className="viber">Viber</a>
-                  <a>info@gruzco.by</a>
+                  <a>gruzco@mail.ru</a>
                 </div>
               </div>
             </div>

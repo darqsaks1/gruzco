@@ -7,9 +7,9 @@ const Main = () => {
   return (
     <div className="Main">
       <div className="mainDiv">
-        <h1>gruzco.by</h1>
+        <h1 className='gruzMain'>gruz</h1>
 
-        <p id="p1">Оставьте заявку и мы перезвоним Вам втечение 30 минут</p>
+        <p id="p1">Оставьте заявку и мы перезвоним Вам в течение 30 минут</p>
         <p>Грузчики от 8 р/час. Наличный и безналичный расчет!</p>
         <Popup
           trigger={<div className="mainButton">Заказать звонок</div>}

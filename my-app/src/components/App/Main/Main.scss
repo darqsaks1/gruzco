@@ -43,7 +43,7 @@
         font-size: 56px;
         left: -2px;
       }
-      @media (max-width:350px) {
+      @media (max-width: 350px) {
         font-size: 50px;
       }
     }
@@ -150,5 +150,12 @@
 #p1 {
   @media (max-width: 1174px) {
     display: none;
+  }
+}
+
+.gruzMain {
+  &:after {
+    content: "CO";
+    color: green;
   }
 }

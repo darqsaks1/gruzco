@@ -9,14 +9,14 @@ import img8 from "../../../assets/car/img8.png";
 
 export const car1 = {
   name: "Микроавтобусы",
-  price: "Цена: от 20 BYN/ч.",
+  price: "Цена: от 20 BYN/час",
   first_text: "Вместимость: до 12 м³",
   second_text: "Грузоподьемность: до 1.5 тонн",
   img: img5,
 };
 export const car2 = {
   name: "Мебельные фургоны",
-  price: "Цена: от 25 BYN/ч",
+  price: "Цена: от 25 BYN/час",
   first_text: "Вместимость:  до 28 м³",
   second_text: "Грузоподьемность: до 4.5 тонн",
   img: img6,
@@ -24,7 +24,7 @@ export const car2 = {
 
 export const car3 = {
   name: "Манипуляторы",
-  price: "Цена: от 65 BYN/ч.",
+  price: "Цена: от 65 BYN/час",
   first_text: "Размеры: до 9 м.",
   second_text: "Грузоподьемность: до 1.5 тонн",
   img: img7,
@@ -50,7 +50,7 @@ export const car5 = {
   
 export const car6 = {
     name: "МАЗ",
-    price: "Цена: от 30 BYN/ч.",
+    price: "Цена: от 30 BYN/час",
     first_text: "Тип кузова: открытый/закрытый",
     second_text: "Грузоподъёмность: от 5 до 30 тонн",
     img: img2,
@@ -61,7 +61,7 @@ export const car7 = {
     name: "Минитрактор",
     price: "Цена: от 25 BYN/сотка",
     first_text: "Насадки: почвофреза + плуг",
-    second_text: "Грузоподьемность: до 1.5 тонн",
+    second_text: "Габариты: 2.5 м x 1.0 м x 2.0 м",
     img: img3,
   };
 
