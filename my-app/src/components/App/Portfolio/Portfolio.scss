@@ -8,6 +8,7 @@
   .PortfolioContainer {
     display: flex;
     flex-direction: column;
+
     h2 {
       align-items: flex-start;
       justify-self: flex-start;
@@ -21,7 +22,7 @@
       text-transform: uppercase;
       position: relative;
       left: 20px; /* dark */
-
+      align-self: center;
       color: #2e302e;
       @media (max-width: 1300px) {
         left: 0;
@@ -43,24 +44,24 @@
 // }
 
 .slide {
-  width: 510px !important;
-  height: 350px !important;
+  // width: 510px !important;
+  height: 250px !important;
 
   /* gray_bg */
-
+  margin: 10px;
   background: #f1f1f1;
   border-radius: 30px;
-  @media (max-width: 1300px) {
-    width: 470px !important;
-    height: 310px !important;
+  @media (max-width: 1230px) {
+    width: 90% !important;
+    height: 80% !important;
   }
-  @media (max-width: 923px) {
-    width: 400px !important;
-    height: 240px !important;
+  @media (max-width: 1024px) {
+    width: 700px !important;
+    height: 400px !important;
   }
-  @media (max-width: 425px) {
-    width: 340px !important;
-    height: 180px !important;
+  @media (max-width: 768px) {
+    width: 500px !important;
+    height: 320px !important;
   }
   img {
     width: 100%;
@@ -80,6 +81,12 @@
   }
 }
 
+.react-multi-carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 // .MobilePort {
 //   @media (min-width: 615px) {
 //     display: none !important;
@@ -93,3 +100,7 @@
 //     height: 170px !important;
 //   }
 // }
+
+.react-multi-carousel-list {
+  height: 400px !important;
+}

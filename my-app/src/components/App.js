@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import "./App.css";
 import { ThemeProvider } from "styled-components";
 import telegram from "../main";
@@ -11,7 +11,7 @@ import BackToUs from "./App/BackToUs/BackToUs";
 import Cars from "../components/App/Cars/Cars";
 import OurPartners from "../components/App/OurPartners/OurPartners";
 import Footer from "../components/App/Footer/Footer";
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import { Burger, Menu } from "./App/Header/components";
 import { theme } from "./theme";
 

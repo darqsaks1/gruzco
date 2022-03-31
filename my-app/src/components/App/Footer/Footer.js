@@ -2,18 +2,15 @@ import React from "react";
 import "./Footer.scss";
 import footerMan from "../../../assets/footerMan.png";
 import footerMan1 from "../../../assets/footerIMG123.png";
-
 import ScrollableAnchor from "react-scrollable-anchor";
-import Popup from "reactjs-popup";
-// import "reactjs-popup/dist÷/index.css";
-import PopupContent from "../Popup/Popup";
+ 
 const Footer = () => {
   return (
     <React.Fragment>
       <div className="Footer">
         <ScrollableAnchor id={"Footer1"}>
           <div className="FooterContainer">
-            <div class="FooterLinks">
+            <div className="FooterLinks">
               <h1>КОнтакты</h1>
               <h2>
                 <a className="tel-href" href="tel: +375 (33) 990-40-77">
@@ -24,10 +21,11 @@ const Footer = () => {
                 Оставьте заявку и мы перезвоним Вам в течение 30 минут. Если у
                 Вас есть вопросы или нужна консультация, свяжитесь с нами!
               </p>
-              <div class="Links">
+              <p>Грузко Бай - сервис для Вас!</p>
+              <div className="Links">
                 <div>
                   {" "}
-                  <a href='https://www.instagram.com/gruzco.by/'>Instagram</a>
+                  <a href="https://www.instagram.com/gruzco.by/">Instagram</a>
                   {/* <a>+375 (29) 333–15–83</a> */}
                   <a href="https://t.me/gruzco" className="tg">
                     Telegram
@@ -44,7 +42,7 @@ const Footer = () => {
                   >
                     Viber
                   </a>
-                  <a>info@gruzco.by</a>
+                  <a className="hoverMail">gruzco@mail.ru</a>
                 </div>
               </div>
             </div>
@@ -53,6 +51,8 @@ const Footer = () => {
           </div>
         </ScrollableAnchor>{" "}
       </div>{" "}
+      <div className="ip">ИП Райчёнок Кирилл Алексеевич </div>{" "}
+      <div className="ip"> УНП 391542375</div>
     </React.Fragment>
   );
 };

@@ -202,7 +202,15 @@
 /*# sourceMappingURL=main.css.map */
 
 .href-popup {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #ffffff;
+  span {
+    color: #ffffff !important;
+  }
 }
 
 .mainButton123 {
@@ -234,4 +242,10 @@
 }
 
 .tg {
+}
+
+.hoverMail {
+  &:hover {
+    color: #2e302e !important;
+  }
 }

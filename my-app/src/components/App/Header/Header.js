@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className="Header">
       <div className="headerContainer">
-        <div class="anchorsContainer">
+        <div className="anchorsContainer">
           <a href="#services">Услуги</a>
           <a href="#Portfolio">Портфолио</a>
           <a href="#workS">Этапы работы</a>
@@ -13,7 +13,7 @@ const Header = () => {
           <a href="#Footer1">Контакты</a>
         </div>
         <div className="telContainer">
-          <a href="tel: +375 (33) 990-40-77"> +375 (29) 990-40-77</a>
+          <a href="tel: +375 (33) 990-40-77"> +375 (33) 990-40-77</a>
         </div>
       </div>
     </div>

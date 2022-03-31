@@ -1,29 +1,16 @@
 import "./Cars.scss";
 import { car1, car2, car3, car4, car5, car6, car7, car8 } from "./carsObj";
-import img1 from "../../../assets/car/img1.png";
-import img2 from "../../../assets/car/img2.png";
-
-import img3 from "../../../assets/car/img3.png";
-
-import img4 from "../../../assets/car/img4.png";
-
-import img5 from "../../../assets/car/img5.png";
-
-import img6 from "../../../assets/car/im6.png";
-
-import img7 from "../../../assets/car/img7.png";
-import img8 from "../../../assets/car/img8.png";
 
 const Cars = () => {
   return (
     <div className="Cars">
       <h3>Предоставляем технику</h3>
-      <div class="carsContainer">
+      <div className="carsContainer">
         <div className="big-block">
-          <div class="block">
+          <div className="block">
             <div className="carBlock">
               <div className="carImg">
-                <img src={car1.img} className="img1CAR car1" />
+                <img src={car1.img} className="img1CAR car1" alt="car" />
               </div>
               <h3>{car1.name}</h3>
               <p>{car1.price}</p>
@@ -32,7 +19,7 @@ const Cars = () => {
             </div>
             <div className="carBlock">
               <div className="carImg">
-                <img src={car2.img} className="img1CAR car2" />
+                <img src={car2.img} className="img1CAR car2" alt="car" />
               </div>
               <h3>{car2.name}</h3>
               <p>{car2.price}</p>
@@ -40,10 +27,10 @@ const Cars = () => {
               <p>{car2.second_text}</p>
             </div>
           </div>
-          <div class="block">
+          <div className="block">
             <div className="carBlock tractor">
               <div className="carImg">
-                <img src={car3.img} className="img1CAR car3" />
+                <img src={car3.img} className="img1CAR car3" alt="car" />
               </div>
               <h3>{car3.name}</h3>
               <p>{car3.price}</p>
@@ -53,7 +40,7 @@ const Cars = () => {
 
             <div className="carBlock">
               <div className="carImg">
-                <img src={car4.img} className="img1CAR car4" />
+                <img src={car4.img} className="img1CAR car4" alt="car" />
               </div>
               <h3>{car4.name}</h3>
               <p>{car4.price}</p>
@@ -63,10 +50,10 @@ const Cars = () => {
           </div>
         </div>
         <div className="big-block">
-          <div class="block">
+          <div className="block">
             <div className="carBlock">
               <div className="carImg">
-                <img src={car5.img} className="img1CAR car5"  />
+                <img src={car5.img} className="img1CAR car5" alt="car" />
               </div>
               <h3>{car5.name}</h3>
               <p>{car5.price}</p>
@@ -75,7 +62,7 @@ const Cars = () => {
             </div>
             <div className="carBlock">
               <div className="carImg">
-                <img src={car6.img} className="img1CAR car6" />
+                <img src={car6.img} className="img1CAR car6" alt="car" />
               </div>
               <h3>{car6.name}</h3>
               <p>{car6.price}</p>
@@ -83,10 +70,10 @@ const Cars = () => {
               <p>{car6.second_text}</p>
             </div>
           </div>
-          <div class="block">
+          <div className="block">
             <div className="carBlock tractor">
               <div className="carImg">
-                <img src={car7.img} className="img1CAR car7" />
+                <img src={car7.img} className="img1CAR car7" alt="car" />
               </div>
               <h3>{car7.name}</h3>
               <p>{car7.price}</p>
@@ -96,7 +83,7 @@ const Cars = () => {
 
             <div className="carBlock">
               <div className="carImg">
-                <img src={car8.img} className="img1CAR car8" />
+                <img src={car8.img} className="img1CAR car8" alt="car" />
               </div>
               <h3>{car8.name}</h3>
               <p>{car8.price}</p>

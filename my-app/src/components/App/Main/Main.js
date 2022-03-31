@@ -10,7 +10,7 @@ const Main = () => {
         <h1 className='gruzMain'>gruz</h1>
 
         <p id="p1">Оставьте заявку и мы перезвоним Вам в течение 30 минут</p>
-        <p>Грузчики от 8 р/час. Наличный и безналичный расчет!</p>
+        <p>Грузчики от 10 р/час. Наличный и безналичный расчет!</p>
         <Popup
           trigger={<div className="mainButton">Заказать звонок</div>}
           position="center center"

@@ -12,7 +12,7 @@ const Services = () => {
           <div className="servicesList">
             <div className="servicesBlock">
               <div className="servicesContainer">
-                <h3>Грузчики от 8 р/час</h3>
+                <h3>Грузчики от 10р/час</h3>
                 <ul>
                   <li>Разгрузка фур, вагонов, контейнеров</li>
                   <li>Перемещение и перестановка груза</li>
@@ -22,7 +22,7 @@ const Services = () => {
                 </ul>
               </div>
               <div className="servicesContainer">
-                <h3>Разнорабочие от 9 р/час</h3>
+                <h3>Разнорабочие от 10 р/час</h3>
                 <ul>
                   <li>Сборка/разборка мебели</li>
                   <li>Земельные работы/прополка</li>
@@ -49,7 +49,7 @@ const Services = () => {
               </div>
               <div className="servicesContainer">
                 <h3>Такелажные работы</h3>
-                <ul class='last-serv-ul'>
+                <ul className='last-serv-ul'>
                   <li>
                     Перемещение пианино, рояля, аквариумов, стекол, зеркал,
                     тяжелого оборудования, бильярдных столов, джакузи, ванн,

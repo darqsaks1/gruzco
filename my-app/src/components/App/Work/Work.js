@@ -18,10 +18,10 @@ const Work = () => {
       <ScrollableAnchor id={"workS"}>
         <div className="WorkContainer">
           <h3>Как мы работаем</h3>
-          <div class="WorkWrapper">
-            <img src={illustr2} />
+          <div className="WorkWrapper">
+            <img src={illustr2}  alt ='car' />
             <div className="list list1">
-              <div class="firstContainer">
+              <div className="firstContainer">
                 <div className="listblock">
                   <div className="titleList">
                     <span>01 </span>Обработка заявки
@@ -79,7 +79,7 @@ const Work = () => {
               </div>
             </div>{" "}
             <div className="list list2">
-              <div class="firstContainer">
+              <div className="firstContainer">
                 <div className="listblock">
                   <div className="titleList">
                     <span>01 </span>Обработка заявки
